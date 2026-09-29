@@ -5,3 +5,5 @@ data/
 /.venv
 /sampled
 Sampled-YD-Object-Detection-*/
+.roboflow-download-*/
+plan.md

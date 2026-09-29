@@ -1,4 +1,13 @@
-# Python 3.12
+# Python 3.12; direct dependencies pinned for dataset tools and YOLOv8 training.
 roboflow==1.5.0
 python-dotenv==1.2.3
 PyYAML==6.0.3
+
+# Official headless distribution: imports as `ultralytics`, shares Roboflow's
+# OpenCV dependency, and avoids installing two packages that both own `cv2`.
+ultralytics-opencv-headless==8.4.161
+torch==2.13.0
+torchvision==0.28.0
+numpy==2.3.5
+Pillow==12.3.0
+opencv-python-headless==5.0.0.93
